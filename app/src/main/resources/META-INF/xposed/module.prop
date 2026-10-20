@@ -3,17 +3,15 @@ name=Ads Kill
 version=1.0
 versionCode=1
 author=shuoh118
-description=网易云音乐去广告。开屏直杀、跳过按钮清除、摇一摇拦截、信息流广告移除、广告 SDK 拦截。
+description=移除开屏及内部广告
+
+# 下面两个决定 LSPosed 里是否显示「源码」和「主页」按钮
+sourceUrl=https://github.com/Shuoh118/Ads-kill
+homepageUrl=https://github.com/Shuoh118
+
 minApiVersion=100
 targetApiVersion=102
 
-# 静态作用域：作用域固定为 scope.list 里的包名，用户无法在其他应用上启用本模块。
-# 这是 libxposed API 102 的模块级开关，写在 module.prop，不是 scope.list 里。
 staticScope=true
-
-# 异常模式：protective = hook 抛异常时记录并放行原方法，不把异常抛给宿主。
-# 用 passthrough 会在 hook 出错时直接崩溃，调试时才用。
 exceptionMode=protective
-
-# 应用更新后不自动热重载，避免旧 hook 残留
 autoHotReload=false
