@@ -17,6 +17,8 @@ Android 广告拦截 LSPosed 模块，基于 [libxposed](https://github.com/libx
 
 ## 构建
 
+源码见：https://github.com/Shuoh118/Ads-kill
+
 Android Studio 打开项目，Sync 后 `Build → Build APK(s)`。
 
 默认使用 debug 签名，无需任何配置。想用自己的签名，复制 `keystore.properties.example` 为 `keystore.properties` 填入信息。
