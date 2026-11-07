@@ -17,6 +17,8 @@ Removes splash and in-app ads
 
 ## Build
 
+source code:https://github.com/Shuoh118/Ads-kill
+
 Open the project in Android Studio, wait for Sync, then `Build → Build APK(s)`.
 
 Debug signing is used by default — no configuration needed. To use your own key, copy `keystore.properties.example` to `keystore.properties` and fill it in.
